@@ -3,6 +3,7 @@ package firebase.app.entrevista;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -36,8 +37,18 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.icon_add:{
+                Toast.makeText(this,"Agregar", Toast.LENGTH_LONG).show();
                 break;
             }
+            case R.id.icon_save:{
+                Toast.makeText(this,"Guardar", Toast.LENGTH_LONG).show();
+                break;
+            }
+            case R.id.icon_erase:{
+                Toast.makeText(this,"Borrar", Toast.LENGTH_LONG).show();
+                break;
+            }
+            default:break;
         }
         return super.onOptionsItemSelected(item);
     }
