@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "515047746860",
+    "firebase_url": "https://fir-entrevista-default-rtdb.firebaseio.com",
+    "project_id": "fir-entrevista",
+    "storage_bucket": "fir-entrevista.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515047746860:android:cba9ae39fee96632981089",
+        "android_client_info": {
+          "package_name": "firebase.app.entrevista"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS34puDr0aC-hMzY1ady68c0DbUrAWNcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
