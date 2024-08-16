@@ -6,15 +6,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="12dp"
     tools:context=".MainActivity">
 
    <EditText
-       android:id="@+id/txt_nombrePersona"
+       android:id="@+id/txt_uidPersona"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="text|number"
+       android:paddingTop="12dp"
+       android:hint="ID"
+       tools:ignore="HardcodedText" />
+
+   <EditText
+       android:id="@+id/txt_descripcionPersona"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:ems="10"
        android:inputType="textPersonName"
        android:paddingTop="12dp"
-       />
+       android:hint="Descripcion"
 
+       tools:ignore="HardcodedText" />
+   <EditText
+       android:id="@+id/txt_uidDate"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="date"
+       android:paddingTop="12dp"
+       android:hint="Fecha"
+
+       tools:ignore="HardcodedText" />
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:layout_margin="10dp"
+      android:layout_gravity="center_horizontal"
+       android:text="Lista de entrevistas"
+       tools:ignore="HardcodedText" />
+
+   <ListView
+      android:id="@+id/lv_datosPersonas"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
 </LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/icon_add"
+android:icon="@drawable/ic_add"
+        android:title="TODO"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/icon_save"
+        android:icon="@drawable/ic_save"
+        android:title="TODO"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/icon_erase"
+        android:icon="@drawable/ic_erase"
+        android:title="TODO"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+</menu>
