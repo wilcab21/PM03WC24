@@ -1,13 +1,12 @@
 package firebase.app.entrevista.model;
 
-import java.text.DateFormat;
-import java.util.Date;
+import android.widget.EditText;
 
 public class Persona {
 
     public String uid;
     public String descripcion;
-    public DateFormat date;
+    public EditText date;
 
     public Persona() {
     }
@@ -28,11 +27,11 @@ public class Persona {
         this.descripcion = descripcion;
     }
 
-    public DateFormat getDate() {
+    public EditText getDate() {
         return date;
     }
 
-    public void setDate(DateFormat date) {
+    public void setDate(EditText date) {
         this.date = date;
     }
 
